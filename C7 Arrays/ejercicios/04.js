@@ -6,4 +6,6 @@ function agregarItemAlFinalDelArray(array, elemento) {
   return array;
 }
 
+console.log(agregarItemAlFinalDelArray([10, 10, 16, 12], 10));
+
 module.exports = agregarItemAlFinalDelArray;

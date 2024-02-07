@@ -6,4 +6,6 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   return array;
 }
 
+console.log(agregarItemAlComienzoDelArray([10, 10, 16, 12], 10));
+
 module.exports = agregarItemAlComienzoDelArray;

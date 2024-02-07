@@ -3,7 +3,7 @@ function encontrarElemento(num, array) {
   // Si lo encuentras debes retornar el INDICE en el que se encuentra dentro del array.
   // Si no se encuentra, retorna -1.
   // Tu código:
-  return array.findIndex((value) => value === elemento);
+  return array.findIndex((value) => value === num);
 }
 
 module.exports = encontrarElemento;
